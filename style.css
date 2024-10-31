@@ -2,13 +2,20 @@
 .qr-container {
   background-color: white;
   border-radius: 10px;
-  padding: 10px;
+  padding: 1em;
   max-width: 1440px;
   width: 25%;
   text-align: center;
   margin: 0 auto;
   margin-top: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 1.5em;
+}
+
+@media (max-width: 375px) {
+  .qr-container {
+    width: 90%;
+    padding: 0.5em;
+  }
 }
 
 body {
@@ -34,7 +41,7 @@ p {
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 1em;
   width: 95%;
   height: auto;
 }

@@ -18,25 +18,28 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
+  The goal of this project is to generate a QR-code page that look as close as possible to the given example. It involves the application of basic HTML layout, tags, and some common CSS styles. 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./QR-Code-Component-Solution.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/florasmile/qr-code-project]
+- Live Site URL: [https://florasmile.github.io/qr-code-project/]
 
 ## My process
+  1. Understand project requirements, including the look of the final design, any provided assets, and basic structure and purpose of the design.
+  2. Set up folder and create a repo on gitHub.
+  3. Open the folder with vs code. 
+  4. Plan layout and structure in HTML.
+  5. Create a stylesheet and write main css styles.
+  6. Change the style and adjust the image back and forth until I am happy with the output.  
+  7. Save changes and push to repo on gitHub.
+  8. Create a URL for publishing and sharing solution on gitHub.
+  9. Take a screenshot using FireShot and save the image to folder. 
+  10. Summarize the process and Complete README-template.md 
 
 ### Built with
 
