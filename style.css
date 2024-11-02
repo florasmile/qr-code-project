@@ -1,23 +1,4 @@
-/* define the image background */
-.qr-container {
-  background-color: white;
-  border-radius: 10px;
-  padding: 1em;
-  max-width: 1440px;
-  width: 25%;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 0 auto;
-  padding-bottom: 1.5em;
-}
-
-@media (max-width: 375px) {
-  .qr-container {
-    width: 90%;
-    padding: 0.5em;
-  }
-}
-
+/* define the overall background page of the card */
 body {
   background-color: lightgray;
   display: flex;
@@ -25,13 +6,33 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+/* define the main card style*/
+.qr-container {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  width: 300px; /* I used 25% originally but then figure out it is easier to use a fix width to allow the design to display consistently across different screen sizes  */
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0 auto;
+  padding-bottom: 1.5em;
+}
+
+/* @media (max-width: 375px) {
+  .qr-container {
+    width: 90%;
+  }
+} */
+
 /* define h2 font style */
-h2 {
+h1 {
   color: hsl(218, 44%, 22%);
   font-size: 15px;
   font-family: "outfit", sans-serif;
   font-weight: 700;
 }
+
 /* define paragraph text font style */
 p {
   color: black;
@@ -40,6 +41,7 @@ p {
   font-weight: 400;
 }
 
+/* define the style of the QR code image */
 img {
   border-radius: 1em;
   width: 95%;
